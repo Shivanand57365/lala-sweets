@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LaLa Sweets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-image: url('BackGround.jpg') ; background-size: cover;">
+    <header>
+        <h1>Welcome to Lala Sweets</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>Home</h1>
+            <p>Indulge in our colorful and delicious sweets made with love and perfection.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>LaLa Sweets is a family-owned confectionery that has been delighting taste buds for over 30 years.</p>
+            <p> We are committed to providing the finest quality sweets that are made from scratch using authentic ingredientsand traditional recipes.</p>
+            <p>Our sweets are not only visually appealing with their vibrant colors, but they also burst with
+                mouthwatering flavors that will leave you craving for more. We take pride in our creativity and
+                innovation in crafting unique and irresistible confections that are loved by all ages.</p>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Colorful Candies</h3>
+                    <img src="WhatsApp Image 2023-05-13 at 11.12.28.jpg" alt="Colorful Candies" width="400px" height="250px">
+                    <p>A rainbow of sweet and tangy candies in various shapes and flavors that will brighten up your day.
+                    </p>
+                </div>
+                <div class="menu-item">
+                    <h3>Rainbow Macarons</h3>
+                    <img src="WhatsApp Image 2023-05-13 at 11.12.25.jpg" alt="Rainbow Macarons" width="400px" height="250px">
+                    
+                    <p>Delicate and colorful French macarons filled with luscious ganache, perfect for special
+                        occasions or as a sweet treat.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Fruit Tarts</h3>
+                    <img src="WhatsApp Image 2023-05-13 at 11.12.26.jpg" alt="Fruit Tarts" width="400px" height="250px">
+                    
+                    <p>A burst of freshness in every bite! Our fruit tarts are made with a buttery crust, creamy
+                        custard, and topped with an assortment of fresh fruits.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cotton Candy</h3>
+                    <img src="WhatsApp Image 2023-05-13 at 11.12.27.jpg" alt="Cotton Candy" width="400px" height="250px">
+                    
+                    <p>A fluffy and sweet delight that will take you back to your childhood. Our cotton candy comes in
+                        a variety of flavors and colors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h4>FOR ORDER</h4>
+    <form class="form">
+    
+        <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>First Name</span>
+            </label>
+            
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Last Name</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input required="" type="tel" placeholder="" class="input">
+            <span>Contact number</span>
+        </label>
+        <label>
+            <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+            <span>Address</span>
+        </label>
+        <label>
+            <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+            <span>Your Order</span>
+        </label>
+        
+        <script>
+            function displayPopup() {
+                alert("Thank you for ordering,soon it will be delivered!");
+            }
+        </script>
+        
+        <button id="mybutton" class="fancy" href="#">
+            <span class="top-key"></span>
+            <span class="text">submit</span>
+            <span class="bottom-key-1"></span>
+            <span class="bottom-key-2"></span>
+        </button>
+        
+        <script>
+            document.getElementById("mybutton").addEventListener("click", displayPopup);
+        </script>
+        
+    </form>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to place an order, please contact us at:</p>
+        <p>Email: info.lalasweets@gmail.com</p>
+        <p>Phone: 123-456-789</p>
+        </div>
+    </section>
+
+	<footer>
+        <p>&copy; 2023 Sweet Website. All rights reserved.</p>
+        <p align="center">Shivanand</p>
+    </footer>
+</body>
+</html>
